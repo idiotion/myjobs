@@ -23,6 +23,8 @@ urlpatterns = [
 
     url(r'^api/',include('snippets.urls')),
 
+    url(r'^meta/', include('metadata.urls')),
+
 ]
 
 
